@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kopik\\source\\repos\\Ecom_Application\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42F100DB-39CB-4363-BA23-115D7364E620}|Ecom_Application\\Ecom_Application.csproj|C:\\Users\\kopik\\source\\repos\\Ecom_Application\\ecom_application\\dao\\orderprocessorrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F100DB-39CB-4363-BA23-115D7364E620}|Ecom_Application\\Ecom_Application.csproj|solutionrelative:ecom_application\\dao\\orderprocessorrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F100DB-39CB-4363-BA23-115D7364E620}|Ecom_Application\\Ecom_Application.csproj|C:\\Users\\kopik\\source\\repos\\Ecom_Application\\ecom_application\\ecomapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F100DB-39CB-4363-BA23-115D7364E620}|Ecom_Application\\Ecom_Application.csproj|solutionrelative:ecom_application\\ecomapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F100DB-39CB-4363-BA23-115D7364E620}|Ecom_Application\\Ecom_Application.csproj|c:\\users\\kopik\\source\\repos\\ecom_application\\ecom_application\\entity\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F100DB-39CB-4363-BA23-115D7364E620}|Ecom_Application\\Ecom_Application.csproj|solutionrelative:ecom_application\\entity\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F100DB-39CB-4363-BA23-115D7364E620}|Ecom_Application\\Ecom_Application.csproj|C:\\Users\\kopik\\source\\repos\\Ecom_Application\\ecom_application\\entity\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F100DB-39CB-4363-BA23-115D7364E620}|Ecom_Application\\Ecom_Application.csproj|solutionrelative:ecom_application\\entity\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F100DB-39CB-4363-BA23-115D7364E620}|Ecom_Application\\Ecom_Application.csproj|C:\\Users\\kopik\\source\\repos\\Ecom_Application\\ecom_application\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{42F100DB-39CB-4363-BA23-115D7364E620}|Ecom_Application\\Ecom_Application.csproj|solutionrelative:ecom_application\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF84B53-C282-44CE-ACBD-599A7541AE31}|Ecommerce_System\\Ecommerce_System.csproj|C:\\Users\\kopik\\source\\repos\\Ecom_Application\\ecommerce_system\\product_order_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF84B53-C282-44CE-ACBD-599A7541AE31}|Ecommerce_System\\Ecommerce_System.csproj|solutionrelative:ecommerce_system\\product_order_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF84B53-C282-44CE-ACBD-599A7541AE31}|Ecommerce_System\\Ecommerce_System.csproj|C:\\Users\\kopik\\source\\repos\\Ecom_Application\\ecommerce_system\\product_addtocart_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF84B53-C282-44CE-ACBD-599A7541AE31}|Ecommerce_System\\Ecommerce_System.csproj|solutionrelative:ecommerce_system\\product_addtocart_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F100DB-39CB-4363-BA23-115D7364E620}|Ecom_Application\\Ecom_Application.csproj|C:\\Users\\kopik\\source\\repos\\Ecom_Application\\ecom_application\\dao\\iorderprocessorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F100DB-39CB-4363-BA23-115D7364E620}|Ecom_Application\\Ecom_Application.csproj|solutionrelative:ecom_application\\dao\\iorderprocessorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF84B53-C282-44CE-ACBD-599A7541AE31}|Ecommerce_System\\Ecommerce_System.csproj|C:\\Users\\kopik\\source\\repos\\Ecom_Application\\ecommerce_system\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{FDF84B53-C282-44CE-ACBD-599A7541AE31}|Ecommerce_System\\Ecommerce_System.csproj|solutionrelative:ecommerce_system\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EcomApp.cs",
+              "DocumentMoniker": "C:\\Users\\kopik\\source\\repos\\Ecom_Application\\Ecom_Application\\EcomApp.cs",
+              "RelativeDocumentMoniker": "Ecom_Application\\EcomApp.cs",
+              "ToolTip": "C:\\Users\\kopik\\source\\repos\\Ecom_Application\\Ecom_Application\\EcomApp.cs",
+              "RelativeToolTip": "Ecom_Application\\EcomApp.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAAAEcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:23:28.535Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\kopik\\source\\repos\\Ecom_Application\\Ecom_Application\\Entity\\Products.cs",
+              "RelativeDocumentMoniker": "Ecom_Application\\Entity\\Products.cs",
+              "ToolTip": "C:\\Users\\kopik\\source\\repos\\Ecom_Application\\Ecom_Application\\Entity\\Products.cs",
+              "RelativeToolTip": "Ecom_Application\\Entity\\Products.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T12:06:33.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderProcessorRepositoryImpl.cs",
+              "DocumentMoniker": "C:\\Users\\kopik\\source\\repos\\Ecom_Application\\Ecom_Application\\DAO\\OrderProcessorRepositoryImpl.cs",
+              "RelativeDocumentMoniker": "Ecom_Application\\DAO\\OrderProcessorRepositoryImpl.cs",
+              "ToolTip": "C:\\Users\\kopik\\source\\repos\\Ecom_Application\\Ecom_Application\\DAO\\OrderProcessorRepositoryImpl.cs",
+              "RelativeToolTip": "Ecom_Application\\DAO\\OrderProcessorRepositoryImpl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T11:48:43.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\kopik\\source\\repos\\Ecom_Application\\Ecom_Application\\Entity\\ProductDbContext.cs",
+              "RelativeDocumentMoniker": "Ecom_Application\\Entity\\ProductDbContext.cs",
+              "ToolTip": "C:\\Users\\kopik\\source\\repos\\Ecom_Application\\Ecom_Application\\Entity\\ProductDbContext.cs",
+              "RelativeToolTip": "Ecom_Application\\Entity\\ProductDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T11:46:53.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product_Order_Test.cs",
+              "DocumentMoniker": "C:\\Users\\kopik\\source\\repos\\Ecom_Application\\Ecommerce_System\\Product_Order_Test.cs",
+              "RelativeDocumentMoniker": "Ecommerce_System\\Product_Order_Test.cs",
+              "ToolTip": "C:\\Users\\kopik\\source\\repos\\Ecom_Application\\Ecommerce_System\\Product_Order_Test.cs",
+              "RelativeToolTip": "Ecommerce_System\\Product_Order_Test.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T10:40:00.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product_AddToCart_Test.cs",
+              "DocumentMoniker": "C:\\Users\\kopik\\source\\repos\\Ecom_Application\\Ecommerce_System\\Product_AddToCart_Test.cs",
+              "RelativeDocumentMoniker": "Ecommerce_System\\Product_AddToCart_Test.cs",
+              "ToolTip": "C:\\Users\\kopik\\source\\repos\\Ecom_Application\\Ecommerce_System\\Product_AddToCart_Test.cs",
+              "RelativeToolTip": "Ecommerce_System\\Product_AddToCart_Test.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T10:38:00.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\kopik\\source\\repos\\Ecom_Application\\Ecommerce_System\\App.config",
+              "RelativeDocumentMoniker": "Ecommerce_System\\App.config",
+              "ToolTip": "C:\\Users\\kopik\\source\\repos\\Ecom_Application\\Ecommerce_System\\App.config",
+              "RelativeToolTip": "Ecommerce_System\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-25T11:48:07.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\kopik\\source\\repos\\Ecom_Application\\Ecom_Application\\App.config",
+              "RelativeDocumentMoniker": "Ecom_Application\\App.config",
+              "ToolTip": "C:\\Users\\kopik\\source\\repos\\Ecom_Application\\Ecom_Application\\App.config",
+              "RelativeToolTip": "Ecom_Application\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-26T09:41:50.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IOrderProcessorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kopik\\source\\repos\\Ecom_Application\\Ecom_Application\\DAO\\IOrderProcessorRepository.cs",
+              "RelativeDocumentMoniker": "Ecom_Application\\DAO\\IOrderProcessorRepository.cs",
+              "ToolTip": "C:\\Users\\kopik\\source\\repos\\Ecom_Application\\Ecom_Application\\DAO\\IOrderProcessorRepository.cs",
+              "RelativeToolTip": "Ecom_Application\\DAO\\IOrderProcessorRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T11:53:08.313Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
