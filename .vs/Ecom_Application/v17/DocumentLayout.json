@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\kopik\\source\\repos\\Ecom_Application\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{42F100DB-39CB-4363-BA23-115D7364E620}|Ecom_Application\\Ecom_Application.csproj|c:\\users\\kopik\\source\\repos\\ecom_application\\ecom_application\\ecomapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F100DB-39CB-4363-BA23-115D7364E620}|Ecom_Application\\Ecom_Application.csproj|solutionrelative:ecom_application\\ecomapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{42F100DB-39CB-4363-BA23-115D7364E620}|Ecom_Application\\Ecom_Application.csproj|C:\\Users\\kopik\\source\\repos\\Ecom_Application\\ecom_application\\dao\\orderprocessorrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42F100DB-39CB-4363-BA23-115D7364E620}|Ecom_Application\\Ecom_Application.csproj|solutionrelative:ecom_application\\dao\\orderprocessorrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F100DB-39CB-4363-BA23-115D7364E620}|Ecom_Application\\Ecom_Application.csproj|C:\\Users\\kopik\\source\\repos\\Ecom_Application\\ecom_application\\ecomapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F100DB-39CB-4363-BA23-115D7364E620}|Ecom_Application\\Ecom_Application.csproj|solutionrelative:ecom_application\\ecomapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F100DB-39CB-4363-BA23-115D7364E620}|Ecom_Application\\Ecom_Application.csproj|c:\\users\\kopik\\source\\repos\\ecom_application\\ecom_application\\entity\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42F100DB-39CB-4363-BA23-115D7364E620}|Ecom_Application\\Ecom_Application.csproj|C:\\Users\\kopik\\source\\repos\\Ecom_Application\\ecom_application\\entity\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42F100DB-39CB-4363-BA23-115D7364E620}|Ecom_Application\\Ecom_Application.csproj|solutionrelative:ecom_application\\entity\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -46,17 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "EcomApp.cs",
               "DocumentMoniker": "C:\\Users\\kopik\\source\\repos\\Ecom_Application\\Ecom_Application\\EcomApp.cs",
               "RelativeDocumentMoniker": "Ecom_Application\\EcomApp.cs",
               "ToolTip": "C:\\Users\\kopik\\source\\repos\\Ecom_Application\\Ecom_Application\\EcomApp.cs",
               "RelativeToolTip": "Ecom_Application\\EcomApp.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAAAEcAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-19T12:23:28.535Z",
               "IsPinned": true,
@@ -72,21 +72,19 @@
               "RelativeToolTip": "Ecom_Application\\Entity\\Products.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T12:06:33.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T12:06:33.787Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "OrderProcessorRepositoryImpl.cs",
               "DocumentMoniker": "C:\\Users\\kopik\\source\\repos\\Ecom_Application\\Ecom_Application\\DAO\\OrderProcessorRepositoryImpl.cs",
               "RelativeDocumentMoniker": "Ecom_Application\\DAO\\OrderProcessorRepositoryImpl.cs",
               "ToolTip": "C:\\Users\\kopik\\source\\repos\\Ecom_Application\\Ecom_Application\\DAO\\OrderProcessorRepositoryImpl.cs",
               "RelativeToolTip": "Ecom_Application\\DAO\\OrderProcessorRepositoryImpl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAMsBAAAAAAAAAAAAwNcBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T11:48:43.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T11:48:43.544Z"
             },
             {
               "$type": "Document",

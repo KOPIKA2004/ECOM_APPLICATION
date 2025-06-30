@@ -34,6 +34,7 @@ namespace Ecom_Application.DAO
                 int count = (result != null) ? Convert.ToInt32(result) : 0;
                 if (count > 0)
                 {
+                    Console.ForegroundColor = ConsoleColor.DarkBlue;
                     Console.WriteLine("Product Name - Already Exists");
                     return false;
                 }
@@ -45,14 +46,18 @@ namespace Ecom_Application.DAO
                     insert_cmd.Parameters.AddWithValue("@description", product.Description);
                     insert_cmd.Parameters.AddWithValue("@stockquantity", product.StockQuantity);
                     insert_cmd.ExecuteNonQuery();
+                    Console.ForegroundColor = ConsoleColor.DarkBlue;
                     Console.WriteLine("Product Name Created Successfully");
+                    Console.ResetColor();
                     return true;
                 }
             }
 
             catch (Exception ex)
             {
+                Console.ForegroundColor= ConsoleColor.DarkGreen;
                 Console.WriteLine("Error: " + ex.Message);
+                Console.ResetColor();
                 return false;
             }
             finally
@@ -73,7 +78,9 @@ namespace Ecom_Application.DAO
                 int count = (result != null) ? Convert.ToInt32(result) : 0;
                 if (count > 0)
                 {
+                    Console.ForegroundColor = ConsoleColor.DarkBlue;
                     Console.WriteLine("Customer MailID - Already Exists");
+                    Console.ResetColor();
                     return false;
                 }
                 else
@@ -83,14 +90,18 @@ namespace Ecom_Application.DAO
                     create_cmd.Parameters.AddWithValue("@email", customer.Email);
                     create_cmd.Parameters.AddWithValue("@password", customer.Password);
                     create_cmd.ExecuteNonQuery();
+                    Console.ForegroundColor = ConsoleColor.DarkBlue;
                     Console.WriteLine("Customer Created Successfully");
+                    Console.ResetColor();
                     return true;
                 }
             }
 
             catch (Exception ex)
             {
+                Console.ForegroundColor = ConsoleColor.DarkRed;
                 Console.WriteLine("Error: " + ex.Message);
+                Console.ResetColor();
                 return false;
             }
             finally
@@ -111,15 +122,18 @@ namespace Ecom_Application.DAO
                 int count = result != null ? Convert.ToInt32(result) : 0;
                 if (count == 0)
                 {
-       
+                    Console.ForegroundColor = ConsoleColor.DarkBlue;
                     throw new My_Exceptions.ProductNotFoundException(" Product not found.");
+          
                 }
                 else
                 {
                     SqlCommand delete_cmd = new SqlCommand("delete from products where Product_id=@productid", con);
                     delete_cmd.Parameters.AddWithValue("@productid", productid);
                     delete_cmd.ExecuteNonQuery();
+                    Console.ForegroundColor = ConsoleColor.DarkBlue;
                     Console.WriteLine("Product Deleted Sucessfully");
+                    Console.ResetColor();
                     return true;
                 }
             }
@@ -142,15 +156,19 @@ namespace Ecom_Application.DAO
 
                 if (count == 0)
                 {
+                    Console.ForegroundColor = ConsoleColor.DarkBlue;
                     Console.WriteLine("Customer - Not Found");
+                    Console.ResetColor();
                     return false;
                 }
                 else
                 {
-                    SqlCommand delete_cmd = new SqlCommand("delete  from customers where customerid=@customerid", con);
+                    SqlCommand delete_cmd = new SqlCommand("delete  from customers where customer_id=@customerid", con);
                     delete_cmd.Parameters.AddWithValue("customerid", customerid);
                     delete_cmd.ExecuteNonQuery();
+                    Console.ForegroundColor = ConsoleColor.DarkBlue;
                     Console.WriteLine("Customer- Deleted Sucessfully");
+                    Console.ResetColor();
                     return true;
                 }
             }
@@ -172,7 +190,9 @@ namespace Ecom_Application.DAO
                 int count = (result != null) ? Convert.ToInt32(result) : 0;
                 if (count > 0)
                 {
+                    Console.ForegroundColor = ConsoleColor.DarkBlue;
                     Console.WriteLine("Product - Already Exists");
+                    Console.ResetColor();
                     return false;
                 }
                 else
@@ -182,13 +202,17 @@ namespace Ecom_Application.DAO
                     add_cmd.Parameters.AddWithValue("@productid", product.Product_Id);
                     add_cmd.Parameters.AddWithValue("@quantity", quantity);
                     add_cmd.ExecuteNonQuery();
+                    Console.ForegroundColor = ConsoleColor.DarkBlue;
                     Console.WriteLine(" Product Added Successfully");
+                    Console.ResetColor();
                     return true;
                 }
             }
             catch (Exception ex)
             {
+                Console.ForegroundColor= ConsoleColor.Red;
                 Console.WriteLine("Error : " + ex.Message);
+                Console.ResetColor();
                 return false;
             }
             finally
@@ -209,7 +233,9 @@ namespace Ecom_Application.DAO
                 int count = (result != null) ? Convert.ToInt32(result) : 0;
                 if (count == 0)
                 {
+                    Console.ForegroundColor = ConsoleColor.DarkBlue;
                     Console.WriteLine("Product Not Exist ");
+                    Console.ResetColor();
                     return false;
                 }
                 else
@@ -218,13 +244,17 @@ namespace Ecom_Application.DAO
                     remove_cmd.Parameters.AddWithValue("@customerid", customer.Customer_id);
                     remove_cmd.Parameters.AddWithValue("@productid", product.Product_Id);
                     remove_cmd.ExecuteNonQuery();
+                    Console.ForegroundColor = ConsoleColor.DarkBlue;
                     Console.WriteLine("Product Removed From Cart");
+                    Console.ResetColor();
                     return true;
                 }
             }
             catch (Exception ex)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Error : " + ex.Message);
+                Console.ResetColor();
                 return false;
             }
             finally
@@ -266,7 +296,9 @@ namespace Ecom_Application.DAO
             }
             catch (Exception ex)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Error: " + ex.Message);
+                Console.ResetColor();
             }
             finally
             {
@@ -286,7 +318,9 @@ namespace Ecom_Application.DAO
 
                 if (!reader.HasRows)
                 {
+                    Console.ForegroundColor = ConsoleColor.DarkBlue;
                     Console.WriteLine("No products available.");
+                    Console.ResetColor();
                     return;
                 }
 
@@ -300,7 +334,9 @@ namespace Ecom_Application.DAO
             }
             catch (Exception ex)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Error: " + ex.Message);
+                Console.ResetColor();
             }
             finally
             {
@@ -326,7 +362,9 @@ namespace Ecom_Application.DAO
                 object result = cmd.ExecuteScalar();
                 if (result == null)
                 {
+                    Console.ForegroundColor = ConsoleColor.DarkBlue;
                     Console.WriteLine("Order ID generation failed.");
+                    Console.ResetColor();
                     return false;
                 }
                 orderId = Convert.ToInt32(result);
@@ -337,7 +375,9 @@ namespace Ecom_Application.DAO
                     int quantity = item.quantity;
                     if (products.StockQuantity < quantity)
                     {
+                        Console.ForegroundColor = ConsoleColor.DarkBlue;
                         Console.WriteLine("Not enough stock for product");
+                        Console.ResetColor();
                         return false;
                     }
                     SqlCommand insert_cmd = new SqlCommand("INSERT INTO order_items (Order_Id, Product_id, quantity) VALUES (@OrderId, @product_id, @quantity)", con);
@@ -355,7 +395,9 @@ namespace Ecom_Application.DAO
             }
             catch (Exception ex) 
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Error placing order: "+ ex.Message);
+                Console.ResetColor();
                 return false;
             }
             finally 
@@ -380,7 +422,7 @@ namespace Ecom_Application.DAO
 
                     throw new My_Exceptions.OrderNotFoundExcepetion("order not found");
                 }
-
+           
                 Console.WriteLine($"\nOrders for Customer ID: {customer.Customer_id}");
                 Console.WriteLine($"{"OrderID",-8} {"Date",-12} {"Product",-20} {"Qty",-5} {"Shipping Address",-30}");
                 Console.WriteLine(new string('-', 85));
@@ -392,13 +434,15 @@ namespace Ecom_Application.DAO
                     string product = reader["ProductName"].ToString();
                     int quantity = Convert.ToInt32(reader["quantity"]);
                     string address = reader["Shipping_address"].ToString();
-
+                    Console.ForegroundColor = ConsoleColor.DarkBlue;
                     Console.WriteLine($"{orderId,-8} {orderDate,-12} {product,-20} {quantity,-5} {address,-30}");
                 }
             }
             catch (Exception ex)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Error viewing orders: " + ex.Message);
+                Console.ResetColor();
             }
             finally
             {
@@ -423,13 +467,16 @@ namespace Ecom_Application.DAO
                     {
                         Customer_id = Convert.ToInt32(reader["Customer_id"]),
                         Name = reader["Name"].ToString(),
-                       
-                    };
+                        Email = reader["Email"].ToString(),
+                        Password = reader["Password"].ToString()
+                     };
                 }
             }
             catch (Exception ex)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Error during login: " + ex.Message);
+                Console.ResetColor();
             }
             finally
             {
